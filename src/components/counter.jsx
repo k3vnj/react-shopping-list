@@ -4,7 +4,6 @@ class Counter extends Component {
   styles = {
     textDecoration: "none",
     fontWeight: "bold",
-    textTransform: "uppercase",
   };
 
   render() {
@@ -39,7 +38,7 @@ class Counter extends Component {
           style={this.getItemStyle()}
           type="text"
           className="form-control"
-          placeholder="Shopping item"
+          placeholder="add shopping item"
         />
       </div>
     );
