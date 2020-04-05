@@ -39,6 +39,7 @@ class Counter extends Component {
           style={this.getItemStyle()}
           type="text"
           className="form-control"
+          placeholder="Shopping item"
         />
       </div>
     );
